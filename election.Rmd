@@ -1,0 +1,140 @@
+---
+title: iTrack Election
+# author: Dmitry Gorodnichy
+# author: UNDER CONSTRUCTION
+output: 
+  flexdashboard::flex_dashboard:
+    # theme: simplex # journal # theme: simplex
+    orientation:  columns #rows
+    social: menu
+    vertical_layout:  fill #scroll
+    # navbar: 
+    #   - { title: "Canada", href: "https://itrack.shinyapps.io/covid/ca.Rmd", align: right }
+    #   - { title: "US", href: "https://itrack.shinyapps.io/covid/us.Rmd", align: right }
+    #   - { title: "Europe", href: "https://itrack.shinyapps.io/covid?region=Europe&N=50&national=1", align: right }
+      
+runtime: shiny       
+---
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+# Forecasting 2019 elections results
+
+<!-- ## row -->
+
+<!-- ### Election StatSheet 2019 Canadian election forecast (by Mac Tan) -->
+```{r, echo = FALSE}
+
+# setwd("Shiny-app")
+source("app.R")
+shinyApp(ui = ui, server = server)
+# o.2019()
+```
+
+# 
+
+
+
+
+# Analysis of 2019 election
+
+
+<!-- ## row -->
+
+<!-- ### Election StatSheet 2019 Canadian election forecast (by Mac Tan) -->
+
+<!-- Data science can help to count wasted votes and see what would have happened if *First-past-the-post* electoral system, which is used Canada since 19th century, had been replaced by a modern *proportional representation* system. -->
+<!-- <!-- , used in many other countries now. --> -->
+
+<!-- Read the article [here](https://doodles.mountainmath.ca/blog/2019/10/22/elections-fun/)  -->
+
+
+```{r 2019-mountainmath-02.Rmd, child = '2019-mountainmath-02.Rmd'}
+```
+
+
+# Preparing for next elections
+
+## row
+
+### Under construction
+
+
+Under construction
+
+#  Info 
+
+
+<!-- # About   {data-orientation=rows, data-navmenu="Info"} -->
+
+
+<!-- #### Functionalities -->
+
+<!-- ## .... Upper Row  -->
+
+<!-- ### About App -->
+
+####  App Info
+
+
+
+<!-- #### Acknowledgment of Source -->
+
+<!-- (a) You shall include and maintain the following notice on all licensed rights of the Information: -->
+
+<!--   - Source: Statistics Canada, name of product, reference date. Reproduced and distributed on an "as is" basis with the permission of Statistics Canada. -->
+
+<!-- (b) Where any Information is contained within a Value-added Product, you shall include on such Value-added Product the following notice: -->
+
+<!--   - Adapted from Statistics Canada, name of product, reference date. This does not constitute an endorsement by Statistics Canada of this product. -->
+
+<!-- ####  Technical details -->
+
+*Name*: Interactive Canada Election Analyzer and Predictor  (iTrack Election App)    
+*Type*: Web Application. Compatible with mobile devices.    
+*URL*: https://itrack.shinyapps.io/election    
+<!-- *App permissions*: none      -->
+*License*:  [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/legalcode).   
+<!-- *Developer*: [Dmitry Gorodnichy](https://www.linkedin.com/in/dmitry-gorodnichy/)       -->
+
+*Questions/Comments*: [dg@ivim.ca](email:dg@ivim.ca)
+<!-- *Contact*: [dg@ivim.ca](email:dg@ivim.ca) -->
+
+
+
+
+#### Description
+
+
+This App is developed in support of the Canadian Electoral reform and the efforts of [One Time Alliance for Democratic Reform](https://www.facebook.com/groups/862670447498771/about).
+
+
+It integrates publicly available codes developed over the past years by a number of researchers and data scientists, using the publicly availale data sources.
+The objective of the App is to show the effect of  various voting and electoral reform strategies  on the outcome of elections.
+
+#### Credits
+
+The codes behind this App are developed by [Mac Tan](https://github.com/thisismactan/Canada-2019) and [Jens von Bergmann](https://doodles.mountainmath.ca/blog/2019/10/22/elections-fun/), 
+ integrated and deployed by
+ [Dmitry Gorodnichy](https://www.linkedin.com/in/dmitry-gorodnichy).
+ <!-- as part of [R Ottawa community](https://ivi-m.github.io/R-Ottawa/) discussion. -->
+ 
+ 
+
+#### Disclaimer 
+
+This work is done on authors own initiative and personal time and not to be associated with any  work done by pr for the Government of Canada. The authors are not liable for any errors that might be present in  data or data interpretation.
+
+<!-- All credits in developing those codes belong to them.  -->
+
+#### Other iTrack Apps
+
+- [iTrack PSES](https://itrack.shinyapps.io/PSES): Interactive Public Service Employee Survey (PSES) Results Tracker 
+- [iTrack Border](https://open.canada.ca/en/app/border-wait-time-interactive-tracker-itrack-border):   “Border Wait Time Prediction and Analysis” Application 
+- [iTrack COVID](https://open.canada.ca/en/app/border-wait-time-interactive-tracker-itrack-border):  Interactive COVID-19 Tracker    
+
+

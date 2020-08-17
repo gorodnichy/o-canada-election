@@ -1,0 +1,12 @@
+name: election
+title: election
+username:
+account: o-canada
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2676041
+bundleId: 3523553
+url: https://o-canada.shinyapps.io/election/
+when: 1597631118.96232
+asMultiple: TRUE
+asStatic: FALSE
