@@ -3,9 +3,19 @@
 Datasets and codes for https://o-canada.shinyapps.io/election/
 
 In support of 
-one time alliance for democratic reform canada
+One Time Alliance for Democratic Reform: 
+https://www.facebook.com/groups/862670447498771
 
 Contributions and re-use welcome!
+
+Fair vote Canada:
+
+- https://www.fairvote.ca/
+  - https://www.fairvote.ca/resources/#externallinkscanada
+- https://en.wikipedia.org/wiki/Fair_Vote_Canada
+- https://twitter.com/FairVoteCanada
+- https://www.facebook.com/FairVoteCanada/
+- https://fairvotingbc.com/
 
 
 Related polls analysis:
